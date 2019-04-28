@@ -1,0 +1,121 @@
+.logo {
+	height: 220px;
+	width: 100%;
+	z-index: 2;
+}
+.image{
+	float:left;
+	margin-top: 30px;
+}
+* {
+	margin: 0px;
+	padding: 0px;
+}
+#MENU ul {
+	list-style: none;
+}
+#MENU ul li a {
+	text-decoration: none;
+	color: black;
+}
+#MENU ul li a:hover {
+	color:red;
+	transition: 0.3s;
+}
+#MENU ul ul li {
+	color: black;
+	line-height: 30px;
+	background-color: white;
+	z-index: 2;
+}
+#MENU ul ul li:hover {
+	color: red;
+	transition: 0.1s;
+	z-index: 2;
+}
+#MENU ul li {
+	width: 180px;
+	height: 30px;
+	line-height: 150px;
+	text-align: center;
+	float: left; 	
+	font-size: 18px;
+	color: black;
+	z-index: 2;
+	margin:40px;
+	margin-top:20px;
+}
+#MENU ul ul {
+	display: none;
+}
+#MENU ul li:hover > ul {
+	display: block;
+	transition: 0.1s;
+	z-index: 2;
+}
+#MENU ul li:hover {
+	color: #F1C40F;
+	transition: 0.3s;
+	z-index: 2;
+
+}
+.showcase {
+	height: 170vh;
+	width: 100%;
+}
+#ob1-violin-outfit {
+	border: 2px solid black;
+	height: 400px;
+	width: 48%;
+	margin-left: 15px;
+	margin-top: 80px;
+	float: left;
+	background-image: url(../image/4.jpg);
+}
+#ob1 {
+	margin-top: 5px;
+	margin-left:70px;
+	margin-right: 40px;
+}
+#brand {
+	margin-left: 20px;
+	color: #0060ff;
+}
+#cost {
+	margin-left: 20px;
+	margin-top: 20px;
+}
+#choose ul li {
+	list-style: none;
+	width: 140px;
+	float: left;
+	text-align: center;
+	font-size: 20px;
+	line-height: 40px;
+	padding: 10px;
+}
+#choose ul li a {
+	color: white;
+	background-color: red;
+	padding: 5px;
+	text-decoration: none;
+}
+#choose ul li a:hover {
+	color: red;
+	background-color: white;
+	border: 2px solid red;
+	transition: 0.2s;
+}
+#inp {
+	float: left;
+}
+.footer {
+	height: 110px;
+	width: 100%;
+	color:blue;
+}
+.text {
+	margin-top:50px;
+	margin-left:410px;
+	height:100px;
+}
